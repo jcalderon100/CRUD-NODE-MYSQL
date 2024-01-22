@@ -9,10 +9,10 @@ app.use(express.json()); // la informacion pasa a convertirse a json
 
 // conexion con base de datos mysql
 const db = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"",
-    database:"empleados_crud"
+    host:"162.241.62.202",
+    user:"empre384_crud_prueba",
+    password:"Z0bm5Q4q8id",
+    database:"empre384_empleados_crud2"
 });
 
 // Funcion crear registro 
